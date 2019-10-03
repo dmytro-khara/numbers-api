@@ -1,0 +1,32 @@
+{
+  "name": "number-api",
+  "version": "1.0.0",
+  "description": "API to handle roman number translation to arabic numbers",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "roman-numerals": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmytro-khara/numbers-api.git"
+  },
+  "keywords": [
+    "API",
+    "Translation"
+  ],
+  "author": "Dmytro Khara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmytro-khara/numbers-api/issues"
+  },
+  "homepage": "https://github.com/dmytro-khara/numbers-api#readme",
+  "jest": {
+    "testMatch": ["**/tests/*.test.js"]
+  }
+}
